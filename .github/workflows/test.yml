@@ -52,15 +52,15 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Node 16
+      - name: Setup Node 18
         uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
-          cache: 'npm'
+          node-version: '18.x'
+          cache: 'yarn'
 
       - name: Install Node dependencies
         run: |
-          npm ci
+          yarn install --frozen-lockfile
 
       - name: Run Hardhat tests
         run: |

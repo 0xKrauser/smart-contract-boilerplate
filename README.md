@@ -1,6 +1,6 @@
 # smart-contract-boilerplate
 
-[![test](https://github.com/0xKrauser/smart-contract-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/0xKrauser/smart-contract-boilerplate/actions/workflows/test.yml)
+[![test](https://github.com/0xKrauser/smart-contract-boilerplate/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/0xKrauser/smart-contract-boilerplate/actions/workflows/test.yml)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/0xKrauser/smart-contract-boilerplate)
 

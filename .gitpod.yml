@@ -1,9 +1,10 @@
 # SPDX-FileCopyrightText: 2023 Johannes Krauser III <krauser@hey.com>
 #
 # SPDX-License-Identifier: CC0-1.0
-
+image:
+    file: .gitpod.Dockerfile
 tasks:
   - name: Setup
     before: yarn
-    init: curl -L https://foundry.paradigm.xyz | bash &source /home/gitpod/.bashrc && foundryup & source /home/gitpod/.bashrc && forge install & python3 -m pip install reuse
+    init: forge install
     command: yarn compile

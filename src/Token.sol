@@ -4,10 +4,6 @@
 
 pragma solidity 0.8.17;
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from 'solmate/tokens/ERC20.sol';
 
-contract Token is ERC20("Token", "TOK", 18) {
-    constructor() {
-        _mint(msg.sender, 1000000 * 10 ** 18);
-    }
-}
+contract Token is ERC20('Token', 'TOK', 18) {}

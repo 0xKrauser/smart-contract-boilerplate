@@ -15,12 +15,13 @@ This repo can be opened in an ephemeral dev environment on Gitpod, the `.gitpod.
 ### Installation
 
   * Install Foundry
-  If you haven't already, install [Foundry](https://book.getfoundry.sh/getting-started/installation)
-  and initialize it on this project with
+    If you haven't already, install [Foundry](https://book.getfoundry.sh/getting-started/installation)
+    and initialize it on this project with
     ```bash
       forge install
     ```
-  * Install npm Dependencies
+  * Install npm 
+    Dependencies
     ```bash
       yarn
     ```

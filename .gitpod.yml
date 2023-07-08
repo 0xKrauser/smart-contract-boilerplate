@@ -4,11 +4,6 @@
 
 tasks:
   - name: Setup Foundry
-    init: curl -L https://foundry.paradigm.xyz | bash && foundryup
-  - name: Install Foundry
-    init: forge install
-  - name: Setup Reuse
-    init: python3 -m pip install reuse
-  - name: Setup, Install & Build
     before: yarn
+    init: curl -L https://foundry.paradigm.xyz | bash && foundryup && forge install & python3 -m pip install reuse
     command: yarn compile

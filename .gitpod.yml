@@ -5,5 +5,5 @@
 tasks:
   - name: Setup
     before: yarn
-    init: curl -L https://foundry.paradigm.xyz | bash && source /home/gitpod/.bashrc && foundryup && forge install & python3 -m pip install reuse
+    init: curl -L https://foundry.paradigm.xyz | bash &source /home/gitpod/.bashrc && foundryup & source /home/gitpod/.bashrc && forge install & python3 -m pip install reuse
     command: yarn compile

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 tasks:
-  - name: Setup Foundry
+  - name: Setup
     before: yarn
-    init: curl -L https://foundry.paradigm.xyz | bash && foundryup && forge install & python3 -m pip install reuse
+    init: curl -L https://foundry.paradigm.xyz | bash && source /home/gitpod/.bashrc && foundryup && forge install & python3 -m pip install reuse
     command: yarn compile

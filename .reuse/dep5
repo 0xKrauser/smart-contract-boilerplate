@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: smart-contract-boilerplate
+Upstream-Contact: Johannes Krauser III <krauser@hey.com>
+Source: https://github.com/0xKrauser/smart-contract-boilerplate
+
+Files: *.json .prettierrc README.md yarn.lock .vscode
+Copyright: Johannes Krauser III <krauser@hey.com>
+License: CC0-1.0
+
+Files: .eslintrc.json tsconfig.json
+Copyright: Johannes Krauser III <krauser@hey.com>
+License: Apache-2.0
+
+Files: remappings.txt
+Copyright: 2022 Devan Non <devanon@chainstride.capital>
+License: Apache-2.0

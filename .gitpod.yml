@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023 Johannes Krauser III <krauser@hey.com>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+tasks:
+  - name: Setup Foundry
+    init: curl -L https://foundry.paradigm.xyz | bash && foundryup
+  - name: Install Foundry
+    init: forge install
+  - name: Setup Reuse
+    init: python3 -m pip install reuse
+  - name: Setup, Install & Build
+    before: yarn
+    command: yarn compile
